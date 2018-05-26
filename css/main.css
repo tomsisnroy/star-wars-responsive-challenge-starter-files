@@ -1,6 +1,6 @@
 header {
-	background-color: #eebb44;
-	margin-bottom: 40px;
+  background-color: #eebb44;
+  margin-bottom: 40px;
 }
 
 body {
@@ -9,34 +9,43 @@ body {
 }
 
 header h1 {
-  	line-height: 1;
-  	margin-bottom: 0;
+  line-height: 1;
+  margin-bottom: 0;
 }
 
 header p {
-  	margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .box {
- 	border: 1px solid #E5E5E5;
-  	margin-bottom: 20px;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
 }
 
 .box-image {
-  	width: 100%;
-} 
-
-.box-content {
-	padding: 20px;
+  width: 100%;
 }
 
 .box-content h3{
-	margin-top: 0;
-	margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .box-content p {
-	margin: 0.5em 0;
+  margin: 0.5em 0;
 }
+
+.box-content {
+  padding: 20px;
+}
+
+.header .box-content {
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+
+
+
 
 

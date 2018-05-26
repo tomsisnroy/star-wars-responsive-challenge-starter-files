@@ -22,15 +22,14 @@
 }
 
 /* Clearfix */
-.row::before,  /*Taking this line out doesn't change anything?*/
+.row::before,  
 .row::after {
    display : table;
    content: '';
-   /*clear: both; */ /*this command can be moved up from the next function*/
 }
 
 .row::after {
-  clear: both;  /*what does the clear command do? It does affect header background*/
+  clear: both;  
 }
 
 .col-3, .col-4, .col-6, .col-12 {
